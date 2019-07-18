@@ -279,8 +279,8 @@ export class Context {
   arc(a0, a1, a2, a3, a4, a5) {
     this._context.arc(a0, a1, a2, a3, a4, a5);
   }
-  arcTo(a0, a1, a2, a3, a4, a5) {
-    this._context.arc(a0, a1, a2, a3, a4, a5);
+  arcTo(a0, a1, a2, a3, a4) {
+    this._context.arcTo(a0, a1, a2, a3, a4);
   }
   beginPath() {
     this._context.beginPath();
